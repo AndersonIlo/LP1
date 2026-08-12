@@ -1,0 +1,34 @@
+Algoritmo "MÉDIA LP1"
+
+Var
+   // Seção de Declarações das variáveis
+   SUB, X, API, P1, E1, E2, EXF, final, parcial, y:real
+
+Inicio
+   escreval ("PROVA 1")
+   leia (P1)
+   escreval ("ENTREGA 1")
+   leia (E1)
+   escreval ("ENTREGA 2")
+   leia (E2)
+   escreval ("ATIVIDADES EXTRAS")
+   leia (X)
+   escreval ("substitutiva")
+   leia (SUB)
+   escreval ("API")
+   leia (API)
+   escreval ("EXAME FINAL")
+   leia (EXF)
+   parcial <- P1*0.5 + E1*0.2+E2*0.3+X+SUB*0.15
+   se parcial >= 5.9 entao
+      Y <- API*0.5
+   senao
+      Y <- 0
+   fimse
+   final <- (parcial*0.5) + Y
+
+   se exf > final entao
+      final <- exf
+   fimse
+
+   escreval ("Média Final:", final)
