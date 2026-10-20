@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="600.0" style="-fx-background-color: #000000; -fx-border-color: #ffffff; -fx-border-width: 2;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.TrilhaController">
+   <children>
+      <Label layoutX="263.0" layoutY="14.0" prefHeight="43.0" prefWidth="75.0" text="Trilha" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="volta_menu" layoutX="14.0" layoutY="520.0" mnemonicParsing="false" onAction="#voltar" prefHeight="24.0" prefWidth="60.0" text="Voltar" />
+      <TextField fx:id="txt_nome" layoutX="26.0" layoutY="122.0" prefHeight="25.0" prefWidth="105.0" promptText="nome do ciclista" />
+      <Button fx:id="bt_pedalar" alignment="CENTER" layoutX="26.0" layoutY="209.0" mnemonicParsing="false" onAction="#pedalar" prefHeight="43.0" prefWidth="96.0" text="Pedalar" textAlignment="CENTER" wrapText="true" />
+      <TextField fx:id="txt_km" layoutX="180.0" layoutY="122.0" prefHeight="25.0" prefWidth="112.0" promptText="extensão da trilha" />
+      <TextField fx:id="txt_marcha" layoutX="331.0" layoutY="122.0" prefHeight="25.0" prefWidth="96.0" promptText="marcha" />
+      <TextField fx:id="txt_velocidade" layoutX="474.0" layoutY="122.0" prefHeight="25.0" prefWidth="96.0" promptText="velocidade" />
+      <Button fx:id="bt_descansar" alignment="CENTER" layoutX="140.0" layoutY="209.0" mnemonicParsing="false" onAction="#descansar" prefHeight="43.0" prefWidth="96.0" text="Descansar" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="bt_marcha" alignment="CENTER" layoutX="252.0" layoutY="209.0" mnemonicParsing="false" onAction="#trocarMarcha" prefHeight="43.0" prefWidth="96.0" text="Trocar marcha" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="bt_frear" alignment="CENTER" layoutX="365.0" layoutY="209.0" mnemonicParsing="false" onAction="#frear" prefHeight="43.0" prefWidth="96.0" text="Frear" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="bt_tempo" alignment="CENTER" layoutX="484.0" layoutY="209.0" mnemonicParsing="false" onAction="#calcularTempo" prefHeight="43.0" prefWidth="96.0" text="Calcular tempo" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="bt_exibir" alignment="CENTER" layoutX="252.0" layoutY="270.0" mnemonicParsing="false" onAction="#exibir" prefHeight="43.0" prefWidth="96.0" text="Exibir" textAlignment="CENTER" wrapText="true" />
+      <TextArea fx:id="txt_resultado" editable="false" layoutX="26.0" layoutY="330.0" prefHeight="175.0" prefWidth="548.0" wrapText="true" />
+   </children>
+</AnchorPane>

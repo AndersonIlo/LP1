@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000; -fx-border-color: #ffffff; -fx-border-width: 2;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MultiploController">
+   <children>
+      <Label layoutX="229.0" layoutY="33.0" prefHeight="43.0" prefWidth="143.0" text="MÚLTIPLO" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="volta_menu3" layoutX="14.0" layoutY="350.0" mnemonicParsing="false" onAction="#voltar" prefHeight="24.0" prefWidth="60.0" text="Voltar" />
+      <TextField fx:id="txt_num1" layoutX="98.0" layoutY="113.0" prefHeight="52.0" prefWidth="149.0" promptText="Primeiro Número" />
+      <TextField fx:id="txt_num2" layoutX="334.0" layoutY="113.0" prefHeight="52.0" prefWidth="149.0" promptText="Segundo Número" />
+      <Button fx:id="bt_verificar" layoutX="258.0" layoutY="188.0" mnemonicParsing="false" onAction="#verificar" prefHeight="24.0" prefWidth="60.0" text="Verificar" />
+      <Label fx:id="lbl_resultado" alignment="CENTER" layoutX="50.0" layoutY="262.0" prefHeight="43.0" prefWidth="500.0" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

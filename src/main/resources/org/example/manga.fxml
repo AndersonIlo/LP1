@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="600.0" style="-fx-background-color: #000000; -fx-border-color: #ffffff; -fx-border-width: 2;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MangaController">
+   <children>
+      <Label layoutX="263.0" layoutY="14.0" prefHeight="43.0" prefWidth="96.0" text="Mangá" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="volta_menu" layoutX="14.0" layoutY="520.0" mnemonicParsing="false" onAction="#voltar" prefHeight="24.0" prefWidth="60.0" text="Voltar" />
+      <TextField fx:id="txt_nome" layoutX="14.0" layoutY="122.0" prefHeight="25.0" prefWidth="130.0" promptText="nome do personagem" />
+      <Button fx:id="bt_criar" alignment="CENTER" layoutX="26.0" layoutY="209.0" mnemonicParsing="false" onAction="#criar" prefHeight="43.0" prefWidth="96.0" text="Criar personagem" textAlignment="CENTER" wrapText="true" />
+      <TextField fx:id="txt_estilo" layoutX="151.0" layoutY="122.0" prefHeight="25.0" prefWidth="112.0" promptText="estilo do cabelo" />
+      <TextField fx:id="txt_comprimento" layoutX="276.0" layoutY="122.0" prefHeight="25.0" prefWidth="96.0" promptText="comprimento" />
+      <TextField fx:id="txt_cor" layoutX="378.0" layoutY="122.0" prefHeight="25.0" prefWidth="96.0" promptText="cor do cabelo" />
+      <Button fx:id="bt_apresentar" alignment="CENTER" layoutX="140.0" layoutY="209.0" mnemonicParsing="false" onAction="#apresentar" prefHeight="43.0" prefWidth="96.0" text="Apresentar" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="bt_desenhar" alignment="CENTER" layoutX="252.0" layoutY="209.0" mnemonicParsing="false" onAction="#desenhar" prefHeight="43.0" prefWidth="96.0" text="Desenhar" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="bt_cortar" alignment="CENTER" layoutX="365.0" layoutY="209.0" mnemonicParsing="false" onAction="#cortar" prefHeight="43.0" prefWidth="96.0" text="Cortar cabelo" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="bt_pentear" alignment="CENTER" layoutX="484.0" layoutY="209.0" mnemonicParsing="false" onAction="#pentear" prefHeight="43.0" prefWidth="96.0" text="Pentear" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="bt_expressao" alignment="CENTER" layoutX="167.0" layoutY="271.0" mnemonicParsing="false" onAction="#mudarExpressao" prefHeight="43.0" prefWidth="96.0" text="Mudar expressão" textAlignment="CENTER" wrapText="true" />
+      <TextField fx:id="txt_expressao" layoutX="484.0" layoutY="122.0" prefHeight="25.0" prefWidth="96.0" promptText="expressão" />
+      <Button fx:id="bt_sorrir" alignment="CENTER" layoutX="300.0" layoutY="271.0" mnemonicParsing="false" onAction="#sorrir" prefHeight="43.0" prefWidth="96.0" text="Sorrir" textAlignment="CENTER" wrapText="true" />
+      <TextArea fx:id="txt_resultado" editable="false" layoutX="26.0" layoutY="330.0" prefHeight="175.0" prefWidth="548.0" wrapText="true" />
+   </children>
+</AnchorPane>
