@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000; -fx-border-color: #ffffff; -fx-border-width: 2;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.TelaInicialController">
+   <children>
+      <Label layoutX="162.0" layoutY="55.0" prefHeight="43.0" prefWidth="276.0" text="EXERCÍCIOS EM JAVA" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="vai_exe1" onAction="#ir_exe1" layoutX="116.0" layoutY="179.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="119.0" text="Exercicio 1" />
+      <Button fx:id="vai_exe2" onAction="#ir_exe2" layoutX="328.0" layoutY="179.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="119.0" text="Exercicio 2" />
+      <Button fx:id="finish_app" onAction="#sair" layoutX="14.0" layoutY="362.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="60.0" text="Sair" />
+   </children>
+</AnchorPane>

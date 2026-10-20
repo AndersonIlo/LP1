@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000; -fx-border-color: #ffffff; -fx-border-width: 2;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.CamelosController">
+   <children>
+      <Label layoutX="244.0" layoutY="14.0" prefHeight="43.0" prefWidth="138.0" text="CAMELOS" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="volta_menu" layoutX="14.0" layoutY="352.0" mnemonicParsing="false" onAction="#voltar" prefHeight="24.0" prefWidth="60.0" text="Voltar" />
+      <TextField fx:id="txt_camelos" layoutX="95.0" layoutY="106.0" prefHeight="25.0" prefWidth="171.0" promptText="Total" />
+      <TextField fx:id="txt_div1" layoutX="372.0" layoutY="106.0" prefHeight="25.0" prefWidth="160.0" promptText="divisor do mais velho, ex: 2" />
+      <TextField fx:id="txt_div2" layoutX="95.0" layoutY="201.0" prefHeight="25.0" prefWidth="171.0" promptText="divisor do Hamed, ex: 3" />
+      <TextField fx:id="txt_div3" layoutX="372.0" layoutY="201.0" prefHeight="25.0" prefWidth="160.0" promptText="divisor do Harim, ex: 9" />
+      <Button fx:id="bt_dividir" layoutX="284.0" layoutY="147.0" mnemonicParsing="false" onAction="#dividir" text="Dividir" />
+      <Label layoutX="90.0" layoutY="63.0" prefHeight="43.0" prefWidth="160.0" text="Quantidade total  de camelos" textAlignment="CENTER" textFill="WHITE" />
+      <Label layoutX="372.0" layoutY="63.0" prefHeight="43.0" prefWidth="160.0" text="Parte do irmão mais velho" textAlignment="CENTER" textFill="WHITE" />
+      <Label layoutX="95.0" layoutY="159.0" prefHeight="43.0" prefWidth="160.0" text="Parte do irmão do meio" textAlignment="CENTER" textFill="WHITE" />
+      <Label layoutX="372.0" layoutY="159.0" prefHeight="43.0" prefWidth="160.0" text="Parte do irmão mais novo" textAlignment="CENTER" textFill="WHITE" />
+      <TextArea fx:id="txt_resultado" editable="false" wrapText="true" layoutX="90.0" layoutY="260.0" prefHeight="105.0" prefWidth="485.0" />
+   </children>
+</AnchorPane>

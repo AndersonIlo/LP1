@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000; -fx-border-color: #ffffff; -fx-border-width: 2;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.MenuAtividade1Controller">
+   <children>
+      <Label layoutX="162.0" layoutY="34.0" prefHeight="43.0" prefWidth="276.0" text="EXERCÍCIOS EM JAVA" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="vai_multiplo" onAction="#ir_multiplo" layoutX="26.0" layoutY="95.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="119.0" text="Multiplo" />
+      <Button fx:id="vai_login" onAction="#ir_login" layoutX="232.0" layoutY="95.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="119.0" text="Login" />
+      <Button fx:id="volta_menu1" onAction="#voltar" layoutX="14.0" layoutY="350.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="60.0" text="Voltar" />
+      <Button fx:id="vai_desconto" onAction="#ir_desconto" layoutX="438.0" layoutY="95.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="119.0" text="Desconto" />
+      <Button fx:id="vai_temperatura" onAction="#ir_temperatura" layoutX="26.0" layoutY="200.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="119.0" text="Temperatura" />
+      <Button fx:id="vai_camelo" onAction="#ir_camelo" layoutX="232.0" layoutY="200.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="119.0" text="Camelos" />
+      <Button fx:id="vai_viagem" onAction="#ir_viagem" layoutX="438.0" layoutY="200.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="119.0" text="Viagem" />
+      <Button fx:id="vai_aluguel" onAction="#ir_aluguel" layoutX="232.0" layoutY="302.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="119.0" text="Aluguel de Carros" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #000000; -fx-border-color: #ffffff; -fx-border-width: 2;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.DescontoController">
+   <children>
+      <Label layoutX="306.0" layoutY="14.0" prefHeight="43.0" prefWidth="138.0" text="MERCADO" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="volta_menu" layoutX="14.0" layoutY="561.0" mnemonicParsing="false" onAction="#voltar" prefHeight="24.0" prefWidth="60.0" text="Voltar" />
+      <Label layoutX="14.0" layoutY="69.0" prefHeight="43.0" prefWidth="108.0" text="Arroz (5 kg)" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="409.0" prefHeight="43.0" prefWidth="173.0" text="Molho de tomate (300 g)" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="366.0" prefHeight="43.0" prefWidth="108.0" text="Fubá (500 g)" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="323.0" prefHeight="43.0" prefWidth="108.0" text="Farinha (1 kg)" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="280.0" prefHeight="43.0" prefWidth="123.0" text="Macarrão (500 g)" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="241.0" prefHeight="43.0" prefWidth="108.0" text="Café (500 g)" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="198.0" prefHeight="43.0" prefWidth="108.0" text="Açúcar (1 kg)" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="155.0" prefHeight="43.0" prefWidth="148.0" text="Óleo de soja (900 ml)" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="112.0" prefHeight="43.0" prefWidth="108.0" text="Feijão (1 kg)" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="452.0" prefHeight="43.0" prefWidth="74.0" text="Sal (1 kg)" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="qtd_arroz" layoutX="226.0" layoutY="78.0" promptText="Quantidade Arroz" />
+      <TextField fx:id="qtd_feijao" layoutX="226.0" layoutY="121.0" promptText="Quantidade Feijão" />
+      <TextField fx:id="qtd_oleo" layoutX="226.0" layoutY="164.0" promptText="Quantidade Óleo" />
+      <TextField fx:id="qtd_acucar" layoutX="226.0" layoutY="207.0" promptText="Quantidade Açucar" />
+      <TextField fx:id="qtd_cafe" layoutX="226.0" layoutY="250.0" promptText="Quantidade Café" />
+      <TextField fx:id="qtd_macarrao" layoutX="226.0" layoutY="289.0" promptText="Quantidade Macarrão" />
+      <TextField fx:id="qtd_farinha" layoutX="226.0" layoutY="332.0" promptText="Quantidade Farinha" />
+      <TextField fx:id="qtd_fuba" layoutX="226.0" layoutY="375.0" promptText="Quantidade Fubá" />
+      <TextField fx:id="qtd_molho" layoutX="226.0" layoutY="418.0" promptText="Quantidade Molho" />
+      <TextField fx:id="qtd_sal" layoutX="226.0" layoutY="461.0" promptText="Quantidade Sal" />
+      <TextField fx:id="preco_arroz" layoutX="400.0" layoutY="78.0" promptText="Preço Arroz" />
+      <TextField fx:id="preco_feijao" layoutX="401.0" layoutY="121.0" promptText="Preço Feijão" />
+      <TextField fx:id="preco_oleo" layoutX="400.0" layoutY="164.0" promptText="Preço Óleo" />
+      <TextField fx:id="preco_acucar" layoutX="401.0" layoutY="207.0" promptText="Preço Açucar" />
+      <TextField fx:id="preco_cafe" layoutX="401.0" layoutY="250.0" promptText="Preço Café" />
+      <TextField fx:id="preco_macarrao" layoutX="401.0" layoutY="289.0" promptText="Preço Macarrão" />
+      <TextField fx:id="preco_farinha" layoutX="401.0" layoutY="332.0" promptText="Preço Farinha" />
+      <TextField fx:id="preco_fuba" layoutX="401.0" layoutY="375.0" promptText="Preço Fubá" />
+      <TextField fx:id="preco_molho" layoutX="401.0" layoutY="418.0" promptText="Preço Molho" />
+      <TextField fx:id="preco_sal" layoutX="401.0" layoutY="461.0" promptText="Preço Sal" />
+      <TextArea fx:id="txt_resultado" editable="false" wrapText="true" layoutX="566.0" layoutY="65.0" prefHeight="429.0" prefWidth="220.0" />
+      <Button fx:id="bt_finalizar" layoutX="349.0" layoutY="524.0" mnemonicParsing="false" onAction="#finalizar" text="Finalizar Compra" />
+   </children>
+</AnchorPane>
